@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28714.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS2019XamarinFormsDemo.Android", "VS2019XamarinFormsDemo\VS2019XamarinFormsDemo.Android\VS2019XamarinFormsDemo.Android.csproj", "{2FFBC2A4-0E43-4390-82C0-A834C36582E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS2019XamarinFormsDemo", "VS2019XamarinFormsDemo\VS2019XamarinFormsDemo\VS2019XamarinFormsDemo.csproj", "{F572B066-1C8C-4950-8225-F87A3E69140B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FFBC2A4-0E43-4390-82C0-A834C36582E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFBC2A4-0E43-4390-82C0-A834C36582E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFBC2A4-0E43-4390-82C0-A834C36582E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2FFBC2A4-0E43-4390-82C0-A834C36582E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFBC2A4-0E43-4390-82C0-A834C36582E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFBC2A4-0E43-4390-82C0-A834C36582E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F572B066-1C8C-4950-8225-F87A3E69140B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F572B066-1C8C-4950-8225-F87A3E69140B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F572B066-1C8C-4950-8225-F87A3E69140B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F572B066-1C8C-4950-8225-F87A3E69140B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F572B066-1C8C-4950-8225-F87A3E69140B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F572B066-1C8C-4950-8225-F87A3E69140B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E0BC0A0-07BE-4B3A-9E0C-9AB55EE671CB}
+	EndGlobalSection
+EndGlobal
