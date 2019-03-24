@@ -10,9 +10,6 @@ namespace Demo.Services
         {
             var assembly = typeof(EmbeddedResource).GetTypeInfo().Assembly;
 
-            // This shows the available items.
-            string[] resources = assembly.GetManifestResourceNames();
-
             var stream = assembly.GetManifestResourceStream($"Demo.{resourceName}");
 
             using (var reader = new StreamReader(stream))
