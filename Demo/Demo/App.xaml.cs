@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Demo.Services;
 using Demo.Views;
+using System.Threading.Tasks;
 
 namespace Demo
 {
@@ -31,5 +32,6 @@ namespace Demo
         {
             // Handle when your app resumes
         }
+
     }
 }
