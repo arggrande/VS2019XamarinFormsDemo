@@ -11,7 +11,7 @@ namespace Demo.ViewModels
         {
             Title = "About";
             Test = "Test";
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
+            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://aka.ms/xf-shell-docs")));
         }
 
         public ICommand OpenWebCommand { get; }
