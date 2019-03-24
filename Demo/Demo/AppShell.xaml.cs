@@ -17,8 +17,8 @@ namespace Demo
             var target = e.Target;
 
 
-            Console.WriteLine($"Current Location: {current?.Location.ToString()}" ?? "No current location");
-            Console.WriteLine($"Target Location: {target?.Location.ToString()}" ?? "No target location");
+            Console.WriteLine($"Current Location: {current?.Location.ToString()}");
+            Console.WriteLine($"Target Location: {target?.Location.ToString()}");
         }
 
         private void TheShell_Navigated(object sender, ShellNavigatedEventArgs e)
@@ -28,8 +28,8 @@ namespace Demo
             var previous = e.Previous;
 
 
-            Console.WriteLine($"Current Location: {current?.Location.ToString()}" ?? "No current location");
-            Console.WriteLine($"Previous Location: {previous?.Location.ToString()}" ?? "No target location");
+            Console.WriteLine($"Current Location: {current?.Location.ToString()}");
+            Console.WriteLine($"Previous Location: {previous?.Location.ToString()}");
         }
     }
 }
