@@ -43,10 +43,11 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AndroidSupportedAbis>x86</AndroidSupportedAbis>
   </PropertyGroup>
-  <!--<PropertyGroup>
+  <PropertyGroup>
     <AndroidDexTool>d8</AndroidDexTool>
     <AndroidLinkTool>r8</AndroidLinkTool>
-  </PropertyGroup>-->
+    <AndroidFastDeploymentType>Assemblies:Dexes</AndroidFastDeploymentType>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
