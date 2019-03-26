@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-
 using Demo.Models;
 
 namespace Demo.Views
