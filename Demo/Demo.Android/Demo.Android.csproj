@@ -44,9 +44,11 @@
     <AndroidSupportedAbis>x86</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup>
-    <AndroidDexTool>d8</AndroidDexTool>
-    <AndroidLinkTool>r8</AndroidLinkTool>
-    <AndroidFastDeploymentType>Assemblies:Dexes</AndroidFastDeploymentType>
+    <!--<AndroidDexTool>d8</AndroidDexTool>-->
+    <!--<AndroidLinkTool>r8</AndroidLinkTool>-->
+    <!-- This currently doesnt work in conjunction with d8 & r8, see here: -->
+    <!--<AndroidFastDeploymentType>Assemblies:Dexes</AndroidFastDeploymentType>-->
+    <!--<AndroidUseAapt2>True</AndroidUseAapt2>-->
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
